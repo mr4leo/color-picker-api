@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Picker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div id="container">
+            <div id="nav-row">
+                <input id="color-picker" type="color">
+                <select id="drop-down" name="drop-down">
+                      <option id="color-mode-1" value="monochrome">Monochrome</option>
+                      <option id="color-mode-2" value="analogic">Analogic</option>
+                      <option id="color-mode-3" value="complement">Complement</option>
+                </select>
+                <button id="get-scheme-btn">Generate Scheme</button>
+            </div>
+
+
+            <div id="color-row">
+                <div id="color-block-1" class="color-block"></div>
+                <div id="color-block-2" class="color-block"></div>
+                <div id="color-block-3" class="color-block"></div>
+                <div id="color-block-4" class="color-block"></div>
+                <div id="color-block-5" class="color-block"></div>
+            </div>
+
+
+            <div id="hex-row">
+                <ul>
+                    <li id="hex-1" class="hex-code">hex 1</li>
+                    <li id="hex-2" class="hex-code">hex 2</li>
+                    <li id="hex-3" class="hex-code">hex 3</li>
+                    <li id="hex-4" class="hex-code">hex 4</li>
+                    <li id="hex-5" class="hex-code">hex 5</li>
+                </ul>
+            </div>
+
+        </div>
+    </main>
+</body>
+<script type="module" src="index.js"></script>
+</html>
